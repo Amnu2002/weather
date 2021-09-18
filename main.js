@@ -37,6 +37,7 @@ window.addEventListener('load',()=>{
             locationTimeZone.innerHTML=`<b>Dekh bhai Ghabrane ki baat nahi hai.<br>
             teri location off hai on karde mai kha ni jaauga.</b>`;
             var contain = document.querySelector(".container");
+            contain.style.background ="none";
             myfun();
         });
         
