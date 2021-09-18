@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    color: white;
+    background-image: url('photos/background.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+#preloader{
+    background:rgb(255, 255, 255) url("photos/loading-waiting.gif") no-repeat center center;
+    position: fixed;
+    background-size: 5%;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+}
+.container{
+    box-shadow: 2px;
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon1{
+    height: 3cm;
+    width: 3cm;
+    display: block; 
+}
+.location,.temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.degree-section h2{
+    font-size: 30px;
+}
